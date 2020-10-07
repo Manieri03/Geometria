@@ -27,7 +27,7 @@ namespace Geometria
         {
             if (nuovoRaggio > 0)
                 raggio = nuovoRaggio;
-            throw new Exception("Raggio non valido");
+            throw new Exception("Raggio non valido"); 
 
         }
         public double DammiRaggio()
